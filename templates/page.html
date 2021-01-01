@@ -38,9 +38,14 @@
 {% block content %}
   <div class="article" role="article">
     <article>
+        <header>
+          <a name="top"></a>
+          <h2>
+            {{ page.title }}
+          </h2>
+        </header>
       {% if page.date %}
         <footer>
-            <a name="top"></a>
             <p>
               <time datetime=" {{ page.date }}">
                 <script>document.write(moment('{{ page.date }}').format('LL'));</script>
@@ -48,11 +53,6 @@
             </p>
         </footer>
       {% endif %}
-        <header>
-          <h2>
-            {{ page.title }}
-          </h2>
-        </header>
       <div class="content">
          {{ page.content|safe }}
       </div>

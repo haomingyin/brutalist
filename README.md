@@ -47,8 +47,8 @@ THEME = 'themes/brutalist'
 SITEIMAGE = 'site-cover.jpg'
 ## used for OG tags and Twitter Card data of index page
 SITEDESCRIPTION = 'A simple, accessible, content-first Pelican theme inspired by David Bryant Copeland\'s https://brutalist-web.design/'
-## path to favicon
-FAVICON = 'pelly.png'
+## the folder to favicons, please refer to https://favicon.io/favicon-converter/
+FAVICON = 'favicon'
 ## path to logo for nav menu (optional)
 LOGO = 'pelly.png'
 ## first name for nav menu if logo isn't provided
